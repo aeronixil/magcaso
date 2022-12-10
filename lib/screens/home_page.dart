@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
               Icon(Icons.home,size: 50,color: Colors.white,),
-              Text("Home",style: TextStyle(color: Colors.white,fontSize: 30),)
+              Text("Uno",style: TextStyle(color: Colors.white,fontSize: 30),)
             ],),
             ),
           ),
@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
               Icon(Icons.search,size: 50,color: Colors.white,),
-              Text("Search",style: TextStyle(color: Colors.white,fontSize: 30),)
+              Text("Duo",style: TextStyle(color: Colors.white,fontSize: 30),)
             ],),
             ),
          ),
@@ -47,7 +47,7 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
               Icon(Icons.settings,size: 50,color: Colors.white,),
-              Text("Settings",style: TextStyle(color: Colors.white,fontSize: 30),)
+              Text("tres",style: TextStyle(color: Colors.white,fontSize: 30),)
             ],),
             ),
           ),
@@ -60,7 +60,7 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
               Icon(Icons.book,size: 50,color: Colors.white,),
-              Text("Books",style: TextStyle(color: Colors.white,fontSize: 30),)
+              Text("cuatro",style: TextStyle(color: Colors.white,fontSize: 30),)
             ],),
             ),
           ),
@@ -73,7 +73,7 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
               Icon(Icons.book,size: 50,color: Colors.white,),
-              Text("Books",style: TextStyle(color: Colors.white,fontSize: 30),)
+              Text("sies",style: TextStyle(color: Colors.white,fontSize: 30),)
             ],),
             ),
           ),
@@ -86,7 +86,7 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
               Icon(Icons.book,size: 50,color: Colors.white,),
-              Text("Books",style: TextStyle(color: Colors.white,fontSize: 30),)
+              Text("six",style: TextStyle(color: Colors.white,fontSize: 30),)
             ],),
             ),
           ),
