@@ -1,0 +1,1 @@
+export 'package:magcaso/screens/home_page.dart';
