@@ -1,12 +1,12 @@
 {
-    "name": "magcaso",
+    "name": "Magcaso Classroom",
     "short_name": "magcaso",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#F8F9FF",
+    "theme_color": "#5267D8",
+    "description": "Hands-on Git and Flutter classroom lessons.",
+    "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
         {

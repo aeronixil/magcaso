@@ -2,6 +2,9 @@
 *.class
 *.log
 *.pyc
+__pycache__/
+# Generated from local Git history; regenerate with tools/render_activity.py.
+/docs/activity.html
 *.swp
 .DS_Store
 .atom/
