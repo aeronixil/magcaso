@@ -28,7 +28,7 @@ The app supports its available themes; lesson text should remain readable in eac
 
 ## Simulated commits and dates
 
-The planned training history consists of 251 new, non-empty commits: one full app upgrade followed by 250 incremental lesson additions. Their subjects are marked `[classroom simulation]`. Both author and committer dates are set to reproducible simulated dates spanning 2024-09-28 through 2026-09-28. These dates are for a teaching visualization only; they do not establish when real work happened and must never be represented as authentic work dates.
+The training history consists of 252 new, non-empty commits: one full app upgrade, 250 incremental lesson additions, and a 3D/AR studio feature inserted on 2025-09-28. Their subjects are marked `[classroom simulation]`. Both author and committer dates are set to reproducible simulated dates spanning 2024-09-28 through 2026-09-28. These dates are for a teaching visualization only; they do not establish when real work happened and must never be represented as authentic work dates.
 
 The activity heatmap in `docs/activity.html` is rendered later by `tools/render_activity.py` from the actual new Git history. It visualizes those added commits and their simulated dates. The date range does not imply that the app used the Flutter or Dart SDK versions available at those historical dates: the upgraded app may use a modern SDK while its classroom commits are backdated for the simulation.
 

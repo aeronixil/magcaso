@@ -47,5 +47,14 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+    <key>io.flutter.embedded_views_preview</key>
+    <true/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsLocalNetworking</key>
+        <true/>
+    </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>View a 3D model in your surroundings using augmented reality.</string>
 </dict>
 </plist>

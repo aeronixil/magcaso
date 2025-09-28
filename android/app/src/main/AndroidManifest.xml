@@ -1,7 +1,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+   <uses-permission android:name="android.permission.INTERNET" />
+   <queries>
+     <package android:name="com.google.android.googlequicksearchbox" />
+     <package android:name="com.google.ar.core" />
+     <intent>
+       <action android:name="android.intent.action.VIEW" />
+       <data android:scheme="https" />
+     </intent>
+   </queries>
    <application
         android:label="magcaso"
         android:name="${applicationName}"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

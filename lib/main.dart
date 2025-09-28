@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:magcaso/screens/ar_gallery.dart';
 
 void main() => runApp(const MyApp());
 
@@ -197,6 +198,15 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
                 actions: [
+                  IconButton(
+                    tooltip: 'Open 3D and AR studio',
+                    icon: const Icon(Icons.view_in_ar),
+                    onPressed: () => Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (_) => const ArGalleryPage(),
+                      ),
+                    ),
+                  ),
                   IconButton(
                     tooltip: _favoritesOnly
                         ? 'Show all lessons'

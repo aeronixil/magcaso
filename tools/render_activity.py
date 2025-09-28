@@ -54,7 +54,7 @@ def main():
         '<p>Darker green means fewer commits; brighter green means a busier day. '
         'Hover over a square for its date and commit count. Each new lesson '
         'commit adds a Markdown exercise and updates the app’s lesson index.</p>'
-        '<p>The app upgrade is one commit; the remaining 250 commits add lessons.'
+        '<p>The history includes the app upgrade, 250 lesson commits and the AR feature.'
         ' GitHub profile contributions also depend on the branch, verified email, '
         'repository eligibility, and GitHub processing.</p></html>'
     )

@@ -1,15 +1,16 @@
 # Magcaso Classroom
 
-A Material 3 learning app with searchable Git and Flutter lessons, topic filters,
+A Material 3 learning app with a 3D/AR model studio, searchable Git and Flutter lessons, topic filters,
 favorites, readable lesson details, and light/dark themes. Favorites and appearance
 are session-only and reset when the app restarts.
 
 ## Classroom history notice
 
-The `codex/classroom-modernization` branch adds **251 simulated-date commits**
+The `codex/classroom-modernization` branch adds **252 simulated-date commits**
 covering **2024-09-28 through 2026-09-28**. Commit subjects start with
 `[classroom simulation]`; author and committer timestamps are teaching data.
-The app upgrade is one commit and 250 subsequent commits add individual lessons.
+The app upgrade is one commit, 250 commits add individual lessons, and the AR
+model studio is inserted on the simulated date **2025-09-28**.
 These timestamps do not represent when development actually occurred. The modern
 Flutter SDK therefore appears even at the beginning of the simulated period.
 The original repository history is retained as the branch's ancestor.
@@ -19,6 +20,10 @@ containing several commits. Re-running the schedule produces the same pattern.
 The local heatmap uses four green intensity levels to show daily commit counts.
 
 ## Run
+
+Use the AR cube button in the lesson browser to view the astronaut and robot.
+Supported mobile devices can launch AR placement; other browsers support 3D.
+See [AR setup, device limitations and model credits](docs/AR.md).
 
 Install Flutter **3.47.5** (Dart **3.13.4**), then:
 
@@ -48,7 +53,7 @@ and target versions. Apple minimum deployment versions are iOS 15 and macOS 12.
 Apple builds require macOS/Xcode. Android release signing is configured for
 classroom debug keys; configure a distribution key before releasing an app.
 
-Local upgrade validation: analysis and six widget tests pass. Android compilation
+Local upgrade validation: analysis and eight widget tests pass. Android compilation
 could not complete on the preparation machine because Java could not establish a
 loopback connection; the separate Android CI job checks the debug build on Linux.
 
@@ -72,6 +77,8 @@ python tools/create_training_history.py --base 5ea759ec65c0b6a9811e64f8b9df03f9e
 ```
 
 The script never pushes, amends, rebases or resets existing history.
+It generates the original 251 curriculum commits; the AR feature is a separate
+historical insertion. The checker validates the full 252-commit timeline.
 GitHub's profile graph has additional rules: commits normally need to be on the
 default or gh-pages branch, the author email must belong to the account, and
 repository eligibility and processing time also apply. A local branch or a
